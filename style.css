@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(9, 73, 73);
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: rgb(34, 40, 49);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(72, 85, 99, 0.25) 0px 30px 60px -12px inset, 
+                rgba(34, 40, 49, 0.3) 0px 18px 36px -18px inset;
+    color: white;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    background-color: rgb(34, 40, 49);
+    border-radius: 10px;
+}
+
+.search-form input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid rgb(9, 73, 73);
+}
+
+.search-form button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(9, 73, 73);
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+search-form button:hover {
+    background-color: rgb(9, 73, 73);
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.card {
+    width: 100%;
+    background-color: rgb(34, 40, 49);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(72, 85, 99, 0.25) 0px 30px 60px -12px inset, 
+                rgba(34, 40, 49, 0.3) 0px 18px 36px -18px inset;
+}
+
+.property {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.property span:first-child {
+    font-weight: bold;
+    color: rgb(0, 255, 255);
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .search-form {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .search-form button {
+        width: 100%;
+    }
+}
