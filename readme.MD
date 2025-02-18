@@ -14,7 +14,7 @@ My Dictionary is a modern dictionary web application designed with a futuristic 
 
 - **HTML** for structuring the web page.
 - **CSS** for styling with a neon retro-futuristic theme.
-- **JavaScript** (to be integrated) for fetching and displaying dictionary data.
+- **JavaScript** for fetching and displaying dictionary data.
 
 ## Installation & Usage
 
