@@ -1,8 +1,8 @@
-# My Dictionary - Future Neon Retro Design
+# My Dictionary - Future Aesthetic Design
 
 ## Overview
 
-My Dictionary is a modern dictionary web application designed with a futuristic neon retro aesthetic. The UI features stylish colors and glowing effects to provide an immersive experience.
+My Dictionary is a modern dictionary web application designed with a futuristic aesthetic. The UI features stylish colors and glowing effects to provide an immersive experience.
 
 ## Features
 
